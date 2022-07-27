@@ -7,81 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0420176527E37B4E00DBEBCF /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420176427E37B4E00DBEBCF /* Tests_iOS.swift */; };
-		0420176727E37B4E00DBEBCF /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420176627E37B4E00DBEBCF /* Tests_iOSLaunchTests.swift */; };
-		0420177127E37B4E00DBEBCF /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420177027E37B4E00DBEBCF /* Tests_macOS.swift */; };
-		0420177327E37B4E00DBEBCF /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420177227E37B4E00DBEBCF /* Tests_macOSLaunchTests.swift */; };
-		0420177427E37B4E00DBEBCF /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420174C27E37B4600DBEBCF /* ScrumdingerApp.swift */; };
-		0420177527E37B4E00DBEBCF /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420174C27E37B4600DBEBCF /* ScrumdingerApp.swift */; };
-		0420177627E37B4E00DBEBCF /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420174D27E37B4600DBEBCF /* MeetingView.swift */; };
-		0420177727E37B4E00DBEBCF /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420174D27E37B4600DBEBCF /* MeetingView.swift */; };
-		0420177827E37B4E00DBEBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0420174E27E37B4E00DBEBCF /* Assets.xcassets */; };
-		0420177927E37B4E00DBEBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0420174E27E37B4E00DBEBCF /* Assets.xcassets */; };
-		045549D628224B320034B12B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045549D528224B320034B12B /* Theme.swift */; };
-		045549D828224B7B0034B12B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045549D728224B7B0034B12B /* DailyScrum.swift */; };
-		045549DA28224BD60034B12B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045549D928224BD60034B12B /* CardView.swift */; };
-		045549DC28224E670034B12B /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045549DB28224E670034B12B /* TrailingIconLabelStyle.swift */; };
+		04CB17EA282B9C160079751A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB17E9282B9C160079751A /* Tests_iOS.swift */; };
+		04CB17EC282B9C160079751A /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB17EB282B9C160079751A /* Tests_iOSLaunchTests.swift */; };
+		04CB17F6282B9C160079751A /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB17F5282B9C160079751A /* Tests_macOS.swift */; };
+		04CB17F8282B9C160079751A /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB17F7282B9C160079751A /* Tests_macOSLaunchTests.swift */; };
+		04CB17F9282B9C160079751A /* chat_socketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB17D1282B9C140079751A /* chat_socketApp.swift */; };
+		04CB17FA282B9C160079751A /* chat_socketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB17D1282B9C140079751A /* chat_socketApp.swift */; };
+		04CB17FB282B9C160079751A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB17D2282B9C140079751A /* ContentView.swift */; };
+		04CB17FC282B9C160079751A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB17D2282B9C140079751A /* ContentView.swift */; };
+		04CB17FD282B9C160079751A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CB17D3282B9C160079751A /* Assets.xcassets */; };
+		04CB17FE282B9C160079751A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CB17D3282B9C160079751A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0420176127E37B4E00DBEBCF /* PBXContainerItemProxy */ = {
+		04CB17E6282B9C160079751A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0420174727E37B4600DBEBCF /* Project object */;
+			containerPortal = 04CB17CC282B9C140079751A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0420175227E37B4E00DBEBCF;
-			remoteInfo = "Scrumdinger (iOS)";
+			remoteGlobalIDString = 04CB17D7282B9C160079751A;
+			remoteInfo = "chat_socket (iOS)";
 		};
-		0420176D27E37B4E00DBEBCF /* PBXContainerItemProxy */ = {
+		04CB17F2282B9C160079751A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0420174727E37B4600DBEBCF /* Project object */;
+			containerPortal = 04CB17CC282B9C140079751A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0420175827E37B4E00DBEBCF;
-			remoteInfo = "Scrumdinger (macOS)";
+			remoteGlobalIDString = 04CB17DD282B9C160079751A;
+			remoteInfo = "chat_socket (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0420174C27E37B4600DBEBCF /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		0420174D27E37B4600DBEBCF /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
-		0420174E27E37B4E00DBEBCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0420175327E37B4E00DBEBCF /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0420175927E37B4E00DBEBCF /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0420175B27E37B4E00DBEBCF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		0420176027E37B4E00DBEBCF /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0420176427E37B4E00DBEBCF /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		0420176627E37B4E00DBEBCF /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		0420176C27E37B4E00DBEBCF /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0420177027E37B4E00DBEBCF /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		0420177227E37B4E00DBEBCF /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		045549D528224B320034B12B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		045549D728224B7B0034B12B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
-		045549D928224BD60034B12B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		045549DB28224E670034B12B /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		04CB17D1282B9C140079751A /* chat_socketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chat_socketApp.swift; sourceTree = "<group>"; };
+		04CB17D2282B9C140079751A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04CB17D3282B9C160079751A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CB17D8282B9C160079751A /* chat_socket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chat_socket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB17DE282B9C160079751A /* chat_socket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chat_socket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB17E0282B9C160079751A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		04CB17E5282B9C160079751A /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB17E9282B9C160079751A /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		04CB17EB282B9C160079751A /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		04CB17F1282B9C160079751A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB17F5282B9C160079751A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		04CB17F7282B9C160079751A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0420175027E37B4E00DBEBCF /* Frameworks */ = {
+		04CB17D5282B9C160079751A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0420175627E37B4E00DBEBCF /* Frameworks */ = {
+		04CB17DB282B9C160079751A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0420175D27E37B4E00DBEBCF /* Frameworks */ = {
+		04CB17E2282B9C160079751A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0420176927E37B4E00DBEBCF /* Frameworks */ = {
+		04CB17EE282B9C160079751A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,176 +83,164 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0420174627E37B4600DBEBCF = {
+		04CB17CB282B9C140079751A = {
 			isa = PBXGroup;
 			children = (
-				0420174B27E37B4600DBEBCF /* Shared */,
-				0420176327E37B4E00DBEBCF /* Tests iOS */,
-				0420176F27E37B4E00DBEBCF /* Tests macOS */,
-				0420175427E37B4E00DBEBCF /* Products */,
+				04CB17D0282B9C140079751A /* Shared */,
+				04CB17DF282B9C160079751A /* macOS */,
+				04CB17E8282B9C160079751A /* Tests iOS */,
+				04CB17F4282B9C160079751A /* Tests macOS */,
+				04CB17D9282B9C160079751A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0420174B27E37B4600DBEBCF /* Shared */ = {
+		04CB17D0282B9C140079751A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				0487A16427F2EC1B005A2237 /* Model */,
-				0420174C27E37B4600DBEBCF /* ScrumdingerApp.swift */,
-				0420174D27E37B4600DBEBCF /* MeetingView.swift */,
-				045549D928224BD60034B12B /* CardView.swift */,
-				0420175A27E37B4E00DBEBCF /* macOS */,
-				0420174E27E37B4E00DBEBCF /* Assets.xcassets */,
+				04CB17D1282B9C140079751A /* chat_socketApp.swift */,
+				04CB17D2282B9C140079751A /* ContentView.swift */,
+				04CB17D3282B9C160079751A /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		0420175427E37B4E00DBEBCF /* Products */ = {
+		04CB17D9282B9C160079751A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0420175327E37B4E00DBEBCF /* Scrumdinger.app */,
-				0420175927E37B4E00DBEBCF /* Scrumdinger.app */,
-				0420176027E37B4E00DBEBCF /* Tests iOS.xctest */,
-				0420176C27E37B4E00DBEBCF /* Tests macOS.xctest */,
+				04CB17D8282B9C160079751A /* chat_socket.app */,
+				04CB17DE282B9C160079751A /* chat_socket.app */,
+				04CB17E5282B9C160079751A /* Tests iOS.xctest */,
+				04CB17F1282B9C160079751A /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0420175A27E37B4E00DBEBCF /* macOS */ = {
+		04CB17DF282B9C160079751A /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				0420175B27E37B4E00DBEBCF /* macOS.entitlements */,
+				04CB17E0282B9C160079751A /* macOS.entitlements */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		0420176327E37B4E00DBEBCF /* Tests iOS */ = {
+		04CB17E8282B9C160079751A /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0420176427E37B4E00DBEBCF /* Tests_iOS.swift */,
-				0420176627E37B4E00DBEBCF /* Tests_iOSLaunchTests.swift */,
+				04CB17E9282B9C160079751A /* Tests_iOS.swift */,
+				04CB17EB282B9C160079751A /* Tests_iOSLaunchTests.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
-		0420176F27E37B4E00DBEBCF /* Tests macOS */ = {
+		04CB17F4282B9C160079751A /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				0420177027E37B4E00DBEBCF /* Tests_macOS.swift */,
-				0420177227E37B4E00DBEBCF /* Tests_macOSLaunchTests.swift */,
+				04CB17F5282B9C160079751A /* Tests_macOS.swift */,
+				04CB17F7282B9C160079751A /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
-			sourceTree = "<group>";
-		};
-		0487A16427F2EC1B005A2237 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				045549D528224B320034B12B /* Theme.swift */,
-				045549D728224B7B0034B12B /* DailyScrum.swift */,
-				045549DB28224E670034B12B /* TrailingIconLabelStyle.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0420175227E37B4E00DBEBCF /* Scrumdinger (iOS) */ = {
+		04CB17D7282B9C160079751A /* chat_socket (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0420177C27E37B4E00DBEBCF /* Build configuration list for PBXNativeTarget "Scrumdinger (iOS)" */;
+			buildConfigurationList = 04CB1801282B9C160079751A /* Build configuration list for PBXNativeTarget "chat_socket (iOS)" */;
 			buildPhases = (
-				0420174F27E37B4E00DBEBCF /* Sources */,
-				0420175027E37B4E00DBEBCF /* Frameworks */,
-				0420175127E37B4E00DBEBCF /* Resources */,
+				04CB17D4282B9C160079751A /* Sources */,
+				04CB17D5282B9C160079751A /* Frameworks */,
+				04CB17D6282B9C160079751A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Scrumdinger (iOS)";
-			productName = "Scrumdinger (iOS)";
-			productReference = 0420175327E37B4E00DBEBCF /* Scrumdinger.app */;
+			name = "chat_socket (iOS)";
+			productName = "chat_socket (iOS)";
+			productReference = 04CB17D8282B9C160079751A /* chat_socket.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0420175827E37B4E00DBEBCF /* Scrumdinger (macOS) */ = {
+		04CB17DD282B9C160079751A /* chat_socket (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0420177F27E37B4E00DBEBCF /* Build configuration list for PBXNativeTarget "Scrumdinger (macOS)" */;
+			buildConfigurationList = 04CB1804282B9C160079751A /* Build configuration list for PBXNativeTarget "chat_socket (macOS)" */;
 			buildPhases = (
-				0420175527E37B4E00DBEBCF /* Sources */,
-				0420175627E37B4E00DBEBCF /* Frameworks */,
-				0420175727E37B4E00DBEBCF /* Resources */,
+				04CB17DA282B9C160079751A /* Sources */,
+				04CB17DB282B9C160079751A /* Frameworks */,
+				04CB17DC282B9C160079751A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Scrumdinger (macOS)";
-			productName = "Scrumdinger (macOS)";
-			productReference = 0420175927E37B4E00DBEBCF /* Scrumdinger.app */;
+			name = "chat_socket (macOS)";
+			productName = "chat_socket (macOS)";
+			productReference = 04CB17DE282B9C160079751A /* chat_socket.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0420175F27E37B4E00DBEBCF /* Tests iOS */ = {
+		04CB17E4282B9C160079751A /* Tests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0420178227E37B4E00DBEBCF /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = 04CB1807282B9C160079751A /* Build configuration list for PBXNativeTarget "Tests iOS" */;
 			buildPhases = (
-				0420175C27E37B4E00DBEBCF /* Sources */,
-				0420175D27E37B4E00DBEBCF /* Frameworks */,
-				0420175E27E37B4E00DBEBCF /* Resources */,
+				04CB17E1282B9C160079751A /* Sources */,
+				04CB17E2282B9C160079751A /* Frameworks */,
+				04CB17E3282B9C160079751A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0420176227E37B4E00DBEBCF /* PBXTargetDependency */,
+				04CB17E7282B9C160079751A /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
 			productName = "Tests iOS";
-			productReference = 0420176027E37B4E00DBEBCF /* Tests iOS.xctest */;
+			productReference = 04CB17E5282B9C160079751A /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		0420176B27E37B4E00DBEBCF /* Tests macOS */ = {
+		04CB17F0282B9C160079751A /* Tests macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0420178527E37B4E00DBEBCF /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildConfigurationList = 04CB180A282B9C160079751A /* Build configuration list for PBXNativeTarget "Tests macOS" */;
 			buildPhases = (
-				0420176827E37B4E00DBEBCF /* Sources */,
-				0420176927E37B4E00DBEBCF /* Frameworks */,
-				0420176A27E37B4E00DBEBCF /* Resources */,
+				04CB17ED282B9C160079751A /* Sources */,
+				04CB17EE282B9C160079751A /* Frameworks */,
+				04CB17EF282B9C160079751A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0420176E27E37B4E00DBEBCF /* PBXTargetDependency */,
+				04CB17F3282B9C160079751A /* PBXTargetDependency */,
 			);
 			name = "Tests macOS";
 			productName = "Tests macOS";
-			productReference = 0420176C27E37B4E00DBEBCF /* Tests macOS.xctest */;
+			productReference = 04CB17F1282B9C160079751A /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0420174727E37B4600DBEBCF /* Project object */ = {
+		04CB17CC282B9C140079751A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					0420175227E37B4E00DBEBCF = {
+					04CB17D7282B9C160079751A = {
 						CreatedOnToolsVersion = 13.3;
 					};
-					0420175827E37B4E00DBEBCF = {
+					04CB17DD282B9C160079751A = {
 						CreatedOnToolsVersion = 13.3;
 					};
-					0420175F27E37B4E00DBEBCF = {
+					04CB17E4282B9C160079751A = {
 						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 0420175227E37B4E00DBEBCF;
+						TestTargetID = 04CB17D7282B9C160079751A;
 					};
-					0420176B27E37B4E00DBEBCF = {
+					04CB17F0282B9C160079751A = {
 						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 0420175827E37B4E00DBEBCF;
+						TestTargetID = 04CB17DD282B9C160079751A;
 					};
 				};
 			};
-			buildConfigurationList = 0420174A27E37B4600DBEBCF /* Build configuration list for PBXProject "Scrumdinger" */;
+			buildConfigurationList = 04CB17CF282B9C140079751A /* Build configuration list for PBXProject "chat_socket" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -268,44 +248,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 0420174627E37B4600DBEBCF;
-			productRefGroup = 0420175427E37B4E00DBEBCF /* Products */;
+			mainGroup = 04CB17CB282B9C140079751A;
+			productRefGroup = 04CB17D9282B9C160079751A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0420175227E37B4E00DBEBCF /* Scrumdinger (iOS) */,
-				0420175827E37B4E00DBEBCF /* Scrumdinger (macOS) */,
-				0420175F27E37B4E00DBEBCF /* Tests iOS */,
-				0420176B27E37B4E00DBEBCF /* Tests macOS */,
+				04CB17D7282B9C160079751A /* chat_socket (iOS) */,
+				04CB17DD282B9C160079751A /* chat_socket (macOS) */,
+				04CB17E4282B9C160079751A /* Tests iOS */,
+				04CB17F0282B9C160079751A /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0420175127E37B4E00DBEBCF /* Resources */ = {
+		04CB17D6282B9C160079751A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0420177827E37B4E00DBEBCF /* Assets.xcassets in Resources */,
+				04CB17FD282B9C160079751A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0420175727E37B4E00DBEBCF /* Resources */ = {
+		04CB17DC282B9C160079751A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0420177927E37B4E00DBEBCF /* Assets.xcassets in Resources */,
+				04CB17FE282B9C160079751A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0420175E27E37B4E00DBEBCF /* Resources */ = {
+		04CB17E3282B9C160079751A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0420176A27E37B4E00DBEBCF /* Resources */ = {
+		04CB17EF282B9C160079751A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,63 +295,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0420174F27E37B4E00DBEBCF /* Sources */ = {
+		04CB17D4282B9C160079751A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045549D828224B7B0034B12B /* DailyScrum.swift in Sources */,
-				045549DC28224E670034B12B /* TrailingIconLabelStyle.swift in Sources */,
-				045549D628224B320034B12B /* Theme.swift in Sources */,
-				0420177627E37B4E00DBEBCF /* MeetingView.swift in Sources */,
-				0420177427E37B4E00DBEBCF /* ScrumdingerApp.swift in Sources */,
-				045549DA28224BD60034B12B /* CardView.swift in Sources */,
+				04CB17FB282B9C160079751A /* ContentView.swift in Sources */,
+				04CB17F9282B9C160079751A /* chat_socketApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0420175527E37B4E00DBEBCF /* Sources */ = {
+		04CB17DA282B9C160079751A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0420177727E37B4E00DBEBCF /* MeetingView.swift in Sources */,
-				0420177527E37B4E00DBEBCF /* ScrumdingerApp.swift in Sources */,
+				04CB17FC282B9C160079751A /* ContentView.swift in Sources */,
+				04CB17FA282B9C160079751A /* chat_socketApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0420175C27E37B4E00DBEBCF /* Sources */ = {
+		04CB17E1282B9C160079751A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0420176727E37B4E00DBEBCF /* Tests_iOSLaunchTests.swift in Sources */,
-				0420176527E37B4E00DBEBCF /* Tests_iOS.swift in Sources */,
+				04CB17EC282B9C160079751A /* Tests_iOSLaunchTests.swift in Sources */,
+				04CB17EA282B9C160079751A /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0420176827E37B4E00DBEBCF /* Sources */ = {
+		04CB17ED282B9C160079751A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0420177327E37B4E00DBEBCF /* Tests_macOSLaunchTests.swift in Sources */,
-				0420177127E37B4E00DBEBCF /* Tests_macOS.swift in Sources */,
+				04CB17F8282B9C160079751A /* Tests_macOSLaunchTests.swift in Sources */,
+				04CB17F6282B9C160079751A /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0420176227E37B4E00DBEBCF /* PBXTargetDependency */ = {
+		04CB17E7282B9C160079751A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0420175227E37B4E00DBEBCF /* Scrumdinger (iOS) */;
-			targetProxy = 0420176127E37B4E00DBEBCF /* PBXContainerItemProxy */;
+			target = 04CB17D7282B9C160079751A /* chat_socket (iOS) */;
+			targetProxy = 04CB17E6282B9C160079751A /* PBXContainerItemProxy */;
 		};
-		0420176E27E37B4E00DBEBCF /* PBXTargetDependency */ = {
+		04CB17F3282B9C160079751A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0420175827E37B4E00DBEBCF /* Scrumdinger (macOS) */;
-			targetProxy = 0420176D27E37B4E00DBEBCF /* PBXContainerItemProxy */;
+			target = 04CB17DD282B9C160079751A /* chat_socket (macOS) */;
+			targetProxy = 04CB17F2282B9C160079751A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0420177A27E37B4E00DBEBCF /* Debug */ = {
+		04CB17FF282B9C160079751A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -429,7 +405,7 @@
 			};
 			name = Debug;
 		};
-		0420177B27E37B4E00DBEBCF /* Release */ = {
+		04CB1800282B9C160079751A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -480,7 +456,7 @@
 			};
 			name = Release;
 		};
-		0420177D27E37B4E00DBEBCF /* Debug */ = {
+		04CB1802282B9C160079751A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -500,8 +476,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mugyeol.Scrumdinger;
-				PRODUCT_NAME = Scrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = "mugyeol.chat-socket";
+				PRODUCT_NAME = chat_socket;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -509,7 +485,7 @@
 			};
 			name = Debug;
 		};
-		0420177E27E37B4E00DBEBCF /* Release */ = {
+		04CB1803282B9C160079751A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -529,8 +505,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mugyeol.Scrumdinger;
-				PRODUCT_NAME = Scrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = "mugyeol.chat-socket";
+				PRODUCT_NAME = chat_socket;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -539,7 +515,7 @@
 			};
 			name = Release;
 		};
-		0420178027E37B4E00DBEBCF /* Debug */ = {
+		04CB1805282B9C160079751A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -555,17 +531,17 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mugyeol.Scrumdinger;
-				PRODUCT_NAME = Scrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = "mugyeol.chat-socket";
+				PRODUCT_NAME = chat_socket;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		0420178127E37B4E00DBEBCF /* Release */ = {
+		04CB1806282B9C160079751A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -581,17 +557,17 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mugyeol.Scrumdinger;
-				PRODUCT_NAME = Scrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = "mugyeol.chat-socket";
+				PRODUCT_NAME = chat_socket;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		0420178327E37B4E00DBEBCF /* Debug */ = {
+		04CB1808282B9C160079751A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -606,11 +582,11 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Scrumdinger (iOS)";
+				TEST_TARGET_NAME = "chat_socket (iOS)";
 			};
 			name = Debug;
 		};
-		0420178427E37B4E00DBEBCF /* Release */ = {
+		04CB1809282B9C160079751A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -625,96 +601,96 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Scrumdinger (iOS)";
+				TEST_TARGET_NAME = "chat_socket (iOS)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		0420178627E37B4E00DBEBCF /* Debug */ = {
+		04CB180B282B9C160079751A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "mugyeol.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Scrumdinger (macOS)";
+				TEST_TARGET_NAME = "chat_socket (macOS)";
 			};
 			name = Debug;
 		};
-		0420178727E37B4E00DBEBCF /* Release */ = {
+		04CB180C282B9C160079751A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "mugyeol.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Scrumdinger (macOS)";
+				TEST_TARGET_NAME = "chat_socket (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0420174A27E37B4600DBEBCF /* Build configuration list for PBXProject "Scrumdinger" */ = {
+		04CB17CF282B9C140079751A /* Build configuration list for PBXProject "chat_socket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0420177A27E37B4E00DBEBCF /* Debug */,
-				0420177B27E37B4E00DBEBCF /* Release */,
+				04CB17FF282B9C160079751A /* Debug */,
+				04CB1800282B9C160079751A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0420177C27E37B4E00DBEBCF /* Build configuration list for PBXNativeTarget "Scrumdinger (iOS)" */ = {
+		04CB1801282B9C160079751A /* Build configuration list for PBXNativeTarget "chat_socket (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0420177D27E37B4E00DBEBCF /* Debug */,
-				0420177E27E37B4E00DBEBCF /* Release */,
+				04CB1802282B9C160079751A /* Debug */,
+				04CB1803282B9C160079751A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0420177F27E37B4E00DBEBCF /* Build configuration list for PBXNativeTarget "Scrumdinger (macOS)" */ = {
+		04CB1804282B9C160079751A /* Build configuration list for PBXNativeTarget "chat_socket (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0420178027E37B4E00DBEBCF /* Debug */,
-				0420178127E37B4E00DBEBCF /* Release */,
+				04CB1805282B9C160079751A /* Debug */,
+				04CB1806282B9C160079751A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0420178227E37B4E00DBEBCF /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		04CB1807282B9C160079751A /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0420178327E37B4E00DBEBCF /* Debug */,
-				0420178427E37B4E00DBEBCF /* Release */,
+				04CB1808282B9C160079751A /* Debug */,
+				04CB1809282B9C160079751A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0420178527E37B4E00DBEBCF /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+		04CB180A282B9C160079751A /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0420178627E37B4E00DBEBCF /* Debug */,
-				0420178727E37B4E00DBEBCF /* Release */,
+				04CB180B282B9C160079751A /* Debug */,
+				04CB180C282B9C160079751A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0420174727E37B4600DBEBCF /* Project object */;
+	rootObject = 04CB17CC282B9C140079751A /* Project object */;
 }
